@@ -22,13 +22,136 @@
 
 //  alert ("Hello World");
 
-
 // Chapter 1 Task 6 ended
 // Chapter 1 Task 7 Started
 
-alert("Hello World");
+// alert("Hello World");
 
 // Chapter 1 Task 7 ended
+// Chapter 2 Task 1 started
+
+// var username;
+
+// Chapter 2 Task 1 ended
+// Chapter 2 Task 2 Started
+
+// var myName = "Mustafa Fakhruddin"
+
+// Chapter 2 Task 2 ended
+// Chapter 2 Task 3 Started
+
+// var message = "Hello World";
+// alert(message);
+
+// Chapter 2 Task 3 ended
+// Chapter 2 Task 4 Started
+
+// var studentName = "Jhone Doe"
+// var studentAge = "15 years old"
+// var studentInterestedCourse  = "Certified Mobile Application Development"
+
+// alert(studentName);
+// alert(studentAge);
+// alert(studentInterestedCourse);
+
+// Chapter 2 Task 4 ended
+// Chapter 2 Task 5 Started
+
+// var food = "PIZZA \nPIZZ \nPIZ \nPI \nP";
+// alert(food);
+
+// Chapter 2 Task 5 ended
+// Chapter 2 Task 6 Started
+
+// var email = "mustafaratlam110@gmail.com";
+// var message = "My email address is ";
+
+// alert(message + email);
+
+// Chapter 2 Task 6 ended
+// Chapter 2 Task 7 Started
+
+// var book = "A smarter way to learn JavaScript";
+// alert("I am trying to learn from the Book " +book);
+
+// Chapter 2 Task 7 ended
+// Chapter 2 Task 8 Started
+
+// var message = "Yah! I can write HTML content through javascript";
+// document.write(message);
+
+// Chapter 2 Task 8 ended
+// Chapter 2 Task 9 Started
+
+// var design = "▬▬▬▬▬▬▬▬▬ஜ ۩۞۩ ஜ▬▬▬▬▬▬▬▬▬";
+// alert(design);
+
+// Chapter 2 Task 9 ended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
