@@ -171,6 +171,198 @@
 
 
 // Chapter 4 Task 3 Ended
+// Chapter 5 Task 1 & 2 Started
+
+// var a = 5,
+//     b = 3,
+//     c = a + b,
+//     d = a - b,
+//     e = a * b,
+//     f = a / b,
+//     g = a % b;
+
+// document.write("Sum of " + a + " and " + b + " is " + c);
+// document.write("Subtraction of " + a + " and " + b + " is " + d);
+// document.write("Multiplication of " + a + " and " + b + " is " + e);
+// document.write("Division of " + a + " and " + b + " is " + f);
+// document.write("Modulus of " + a + " and " + b + " is " + g);
+
+// Chapter 5 Task 1 & 2 Ended
+// Chapter 5 Task 3 Started
+
+// var a ;
+// a = 5;
+
+// var incrementValue = a + 1;
+// var added7 = incrementValue + 7;
+// var decrementValue = added7 - 1;
+// var remainderValue = decrementValue % 3;
+
+// document.write(
+//   "Value after the variable declaration is undefined." +
+//     "<br>" +
+//     "Initial value is: " +
+//     a +
+//     "<br>" +
+//     "Value after increment is: " +
+//     incrementValue +
+//     "<br>" +
+//     "Value after addition is: " +
+//     added7 +
+//     "<br>" +
+//     "Value after decrement is: " +
+//     decrementValue +
+//     "<br>" +
+//     "The remainder  is: " +
+//     remainderValue );
+
+// Chapter 5 Task 3 Ended
+// Chapter 5 Task 4 Started
+
+// var costOfTicket = 600;
+// var total = costOfTicket * 5;
+
+// document.write("Total cost to buy 5 tickets to a movie is " + total + "PKR")
+
+// Chapter 5 Task 4 Ended
+// Chapter 5 Task 5 Started
+
+// var a = 4;
+// document.write("Table of " + a + "<br>")
+
+// for (var i = 1; i <= 10; i++){
+
+//     b = a * i;
+
+//     document.write(a + " x " + i + " = " + b + "<br>");
+
+// };
+
+// Chapter 5 Task 5 Ended
+// Chapter 5 Task 6 Started
+
+// var valueOfCentigrade = 25;
+// var valueOfFahrenheit = 70;
+
+// var c = (valueOfFahrenheit - 32) * 5 / 9;
+// var f = (valueOfCentigrade * 9 / 5) + 32;
+
+// document.write(
+//   valueOfCentigrade +
+//     "°C" +
+//     " is " +
+//     f +
+//     "°F" +
+//     "<br>" +
+//     valueOfFahrenheit +
+//     "°F" +
+//     " is " +
+//     c +
+//     "°C"
+// );
+
+// Chapter 5 Task 6 Ended
+// Chapter 5 Task 7 Started
+
+// var heading = "Shopping Cart",
+//     price1 = 650,
+//     price2 = 100,
+//     quantity1 = 3,
+//     quantity2 = 7,
+//     shippingCharges = 100,
+
+//     totalForItem1 = price1 * quantity1,
+//     totalForItem2 = price2 * quantity2,
+//     totalCost = totalForItem1 + totalForItem2 + shippingCharges;
+
+// document.write(
+//   heading.bold() +
+//     "<br>" +
+//     "<br>" +
+//     "Price of Item 1 is " +
+//     price1 +
+//     "<br>" +
+//     "Quantity for Item 1 is " +
+//     quantity1 +
+//     "<br>" +
+//     "Price of Item 2 is " +
+//     price2 +
+//     "<br>" +
+//     "Quantity for Item 2 is " +
+//     quantity2 +
+//     "<br>" +
+//     "Shipping charges" +
+//     shippingCharges +
+//     "<br>" +
+//     "<br>" +
+//     "Total cost of your Order is " +
+//     totalCost
+// );
+
+// Chapter 5 Task 7 Ended
+// Chapter 5 Task 8 Started
+
+// var heading = "Marks Sheet".bold()
+
+//     totalMarks = 980,
+//     marksObtain = 804,
+//     percentage = (marksObtain / totalMarks) * 100;
+
+// document.write( heading.bold() + "<br>" + "<br>" +
+//     "Total Marks: " + totalMarks + "<br>" + "Marks Obtain: " + marksObtain + "<br>" + "Percentage: " + percentage + "%"
+//     );
+
+// Chapter 5 Task 8 Ended
+// Chapter 5 Task 9 Started
+
+// var heading = "Currency In PKR".bold(),
+//     usDollar = 10,
+//     saudiRiyal = 25,
+//     totalInPkr = (usDollar * 104.80) + (saudiRiyal * 28);
+
+//     document.write(
+//        "<br>" +
+//         heading.bold() +
+//         "<br>" +
+//         "<br>" +
+//         "<br>" +
+//         "Total Currency in PKR is " +
+//         totalInPkr
+//     );
+
+// Chapter 5 Task 9 Ended
+// Chapter 5 Task 10 Started
+
+// var a = 5,
+//     b = ((a + 5) * 10) / 2;
+
+// document.write("The output value is " + b);
+
+// Chapter 5 Task 10 Ended
+// Chapter 5 Task 11 Started
+
+// var heading = "Age calculator".bold(),
+//     currentYear = 2021,
+//     birthYear = 1999,
+//     age = currentYear - birthYear;
+
+
+//     document.write(
+//         "<br>" + heading.bold() + "<br>" + "<br>" + "Current Year: " + currentYear + "<br>"
+//         + "Birth Year: " + birthYear + "<br>" + "Your Age is: " + age
+//     );
+
+// Chapter 5 Task 11 Ended
+// Chapter 5 Task 12 Started
+
+
+
+
+
+
+// Chapter 5 Task 12 Ended
+// Chapter 5 Task 13 Started
+// Chapter 5 Task 13 Ended
 
 
 
