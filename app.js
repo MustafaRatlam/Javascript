@@ -131,6 +131,55 @@
 
 
 // Chapter 3 Task 4 Ended
+// Chapter 4 Task 1 Started
+
+// var variable1 = "Hello",    
+//     variable2 = "World",
+//     variable2 = "42";
+    
+// Chapter 4 Task 1 Ended
+// Chapter 4 Task 2 Started
+
+// var variableNo1 = "Legal1";
+// var variable2 = "Legal2";
+// var variable$3 = "Legal3";
+// var _variable_ = "Legal4";
+// var $variable$ = "Legal5";
+// var !variable-1 = "Illegal1";
+// var /varia!ble- = "Illegal2";
+// var .varia.ble. = "Illegal3";
+// var 9varia-ble- = "Illegal4";
+// var 10variable.8 = "Illegal5";
+
+// Chapter 4 Task 2 Ended
+// Chapter 4 Task 3 Started
+
+// var heading = "Rules for naming JS variables",
+//   line1 =
+//     "Variable names can only contain letters, numbers, $ and _ . For example: ",
+//   line1Example = "$my_1stVariable",
+//   line2 = "Variables must begin with a letter, _ and $. For Example: ",
+//   line2Example1 = "$name, _name",
+//   line2Example2 = "name",
+//   line3 = "Variable names are case case sensitive.",
+//   line4 = "Variable names should not be JS keywords.";
+
+
+
+// document.write(
+//   heading.bold() + "<br>" + "<br>" + line1 + line1Example.bold() + "<br>" + line2 + line2Example1.bold() + " or " + line2Example2.bold() + "<br>" + line3 + "<br>" + line4 );
+
+
+// Chapter 4 Task 3 Ended
+
+
+
+
+
+
+
+
+
 
 
 
