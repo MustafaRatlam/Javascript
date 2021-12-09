@@ -87,68 +87,50 @@
 // alert(design);
 
 // Chapter 2 Task 9 ended
+// Chapter 3 Task 1 Started
+
+// var age = 21;
+// alert("I am " + age + "years old");
+
+// Chapter 3 Task 1 Ended
+// Chapter 3 Task 2 Started
+
+// var visitTime = 20;
+// alert("you have visited this site " + visitTime + " times");
+
+// Chapter 3 Task 2 Ended
+// Chapter 3 Task 3 Started
+
+// var birthYear = 1999;
+
+// document.write(
+//   "My birth year is " +
+//     birthYear +
+//     "<br>"+
+//     "Data type of my declared variable is number"
+// );
+
+// Chapter 3 Task 3 Ended
+// Chapter 3 Task 4 Started
+
+// var visitorName = "John Doe";
+
+// var productTitle = "T-Shirts";
+// var orderQuantity = "5";
+
+// document.write(
+//   visitorName.bold() +
+//     " " +
+//     "ordered" +
+//     " " +
+//     orderQuantity.bold() +
+//     " " +
+//     productTitle.bold() +
+//     "(s) on XYZ Clothing Store"
+// );
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Chapter 3 Task 4 Ended
 
 
 
