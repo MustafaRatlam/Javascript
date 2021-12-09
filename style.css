@@ -1,0 +1,290 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ul{
+    list-style: none;
+}
+/*  Nav bar Start */
+/* First Nav bar start */
+#nav .row .main{
+    width: 100%;
+    margin: auto;
+    background-color: #f7f8f8;
+    padding-top: 0%;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+#nav .row .main .top-nav {
+    width: 100%;
+    margin: auto;
+    /* background-color: wheat; */
+    
+    
+}
+
+#nav .row .main .top-nav ul{
+    display: flex;
+}
+    
+    
+    
+    
+
+#nav .row .main .top-nav ul li{
+    margin: 10px 0 0 0;
+    padding: 0px 20px;
+    font-size: 1rem;
+    
+    
+    
+    
+}
+#nav .row .main .top-nav ul li i{
+    padding: 0 10px;
+    
+}
+
+#nav .row .main .top-nav ul .logo-icon img{
+    height: 40px;
+    width: auto;
+    margin-top: -10px;
+      
+    
+}
+/* First Nav bar end */
+/* Second Nav bar Start */
+
+#nav .main .second-nav{
+    width: 100%;
+    margin: auto;
+    /* flex-wrap: wrap; */
+    
+    /* background-color: green; */
+
+}
+
+#nav  .main .second-nav .inputs-btns {
+    padding: 4px;
+    
+}
+
+#nav  .main .second-nav .inputs-btns .drop-down{
+    border-radius: 6px;
+    border: 1px solid black;
+    outline: none;
+    background-color: #fff;
+    padding: 15px 10px;
+    margin-left: 20px;
+    font-family: Roboto,Helvetica,sans-serif;
+}
+
+#nav  .main .second-nav .inputs-btns .searchbox{
+    border-radius: 6px;
+    border: 1px solid black;
+    outline: none;
+    background-color: #fff;
+    padding: 15px 2px;
+    margin-left: 21px;
+    font-family: Roboto,Helvetica,sans-serif;
+    text-indent: 15px;
+
+    
+}
+
+#nav .main .second-nav .inputs-btns .login-btn{
+    padding: 4px 4px;
+    border: none;
+    outline: none;
+    margin-left: 25px;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    font-family: Roboto,Helvetica,sans-serif;
+    color: #002f34;
+    font-weight: 700;
+}
+
+#nav .main .second-nav .inputs-btns .sell-btn{
+    background-image: url(https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg);
+   
+    border:  none;
+    border-radius: 25px;
+    outline: none;
+    margin-left: 30px;
+    height: 3rem;
+    width: 6.3rem;
+    
+
+    background-color: #fff;
+    font-family: Roboto,Helvetica,sans-serif;
+    color: #002f34;
+    font-weight: 700;
+}
+
+#nav .main .second-nav .inputs-btns #search-icon{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    
+    
+}
+/* Second Nav bar end */
+/* nav bar End */
+
+/* Links  Start*/
+
+#links .container .main {
+    width:100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+#links .container .main .link ul{
+    /* background-color: turquoise; */
+    display: -webkit-inline-box;
+    
+    
+    
+    
+    
+    
+    
+}
+
+#links .container .main .link ul li{
+    font-size: 1rem;
+    line-height: 3;
+    letter-spacing: normal;
+    margin: 0 22.500px;
+   
+    
+     
+}
+
+#links .container .main .link ul li a{
+    
+    color: #002f34;
+    align-items: center; 
+    text-decoration: none;
+}
+       
+       
+    
+
+#links .container .main .link ul li a:focus{
+    
+    color: #002f34;
+}
+/* Links  End*/
+/* Header  Start*/
+
+#header  .main .cover-img{
+    width: 100%;
+    height: 15rem;
+    background: url(https://www.olx.com.pk/assets/wallpaper.6416002a042322099dbfec286d7574f4.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+/* Header  End*/
+
+/* Recommendation card Start */
+#r-cards .container .main{
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 1280px;
+}
+
+
+/* Recommendation card end */
+
+/* Footer Banner Start */
+#footer-banner .line {
+    width: 0.2rem;
+    height: 1rem;
+    background-color: black;
+    padding: 2px;
+    
+}
+/* Footer Banner End  */
+/* Footer links Start  */
+
+#footer-links {
+    background-color:  #ebeeef;
+    width: 100%;
+    
+    padding-top: 16px;
+    padding-bottom: 64px;
+    
+    
+    
+}
+
+#footer-links h6 {
+    color: #002f34;
+    font-size: 0.8rem;
+    font-weight: 700;
+
+}
+#footer-links ul li a {
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: #222;
+    line-height: 1.4;
+
+}
+#footer-links ul li a:hover {
+    text-decoration: underline;
+    font-size: 0.8rem;
+    color: #002f34;
+    
+}
+
+#footer-links  a i {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #002f34;
+    margin: 0 6px;
+    
+    
+
+}
+#footer-links  a:hover {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #002f34;
+    
+
+}
+
+#footer-links .btn-links {
+    background-color: white;
+   
+    align-items: baseline;
+    
+
+}
+/* Footer Links End  */
+/* Footer Start  */
+#fotter .bg-color-footer{
+    background-color: #002f34;
+    color: #fff;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+}
+#fotter span{
+    font-weight: 700;
+}
+
+
+/* Footer End  */
+
+
+
+
+       

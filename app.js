@@ -1,6 +1,6 @@
 // Chapter 1 Task 1 started
 
-// alert ("Hello World")
+// alert ("Hello World");
 
 // Chapter 1 Task 1 ended
 // Chapter 1 Task 2 started
@@ -15,72 +15,20 @@
 // Chapter 1 Task 3 ended
 // Chapter 1 Task 4 started
 
-// alert("Welcome to JS Land...");
-// alert("Happy Coding! ");
-
-// Chapter 1 Task 4 ended
-// Chapter 1 Task 5 started
-
-// console.log(alert("Hello.. I can run JS through my web browser's console"))
+// console.log(r'alert("Hello.. I can run JS through my web browses console"))
 
 // Chapter 1 Task 5 ended
 // Chapter 1 Task 6 Started
 
-
-
+//  alert ("Hello World");
 
 
 // Chapter 1 Task 6 ended
+// Chapter 1 Task 7 Started
 
+alert("Hello World");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Chapter 1 Task 7 ended
 
 
 
@@ -189,5 +137,3 @@
 // console.log(age);
 // document.write(age);
 // alert(age);
-
-
