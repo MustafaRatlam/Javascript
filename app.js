@@ -383,9 +383,31 @@ var snacksPerDay = 2;
 
 var totalSnacks = (maxAge - currentAge) * 2;
 
-document.write()
+document.write(
+  heading.bold() +
+    "<br>" +
+    "<br>" +
+    "Favourite snack: " +
+    snack +
+    "<br>" +
+    "Current age: " +
+    currentAge +
+    "<br>" +
+    "Estimated maximum age: " +
+    maxAge +
+    "<br>" +
+    "Amount of snacks per day: " +
+    snacksPerDay +
+    "<br>" +
+    "You will need " +
+    totalSnacks +
+    " roll to last you until the old age of " +
+    maxAge
+);
 
 // Chapter 5 Task 13 Ended
+
+//
 
 // var days = [
 //   "Sunday",
