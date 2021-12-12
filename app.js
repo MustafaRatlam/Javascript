@@ -129,14 +129,13 @@
 //     "(s) on XYZ Clothing Store"
 // );
 
-
 // Chapter 3 Task 4 Ended
 // Chapter 4 Task 1 Started
 
-// var variable1 = "Hello",    
+// var variable1 = "Hello",
 //     variable2 = "World",
 //     variable2 = "42";
-    
+
 // Chapter 4 Task 1 Ended
 // Chapter 4 Task 2 Started
 
@@ -164,11 +163,8 @@
 //   line3 = "Variable names are case case sensitive.",
 //   line4 = "Variable names should not be JS keywords.";
 
-
-
 // document.write(
 //   heading.bold() + "<br>" + "<br>" + line1 + line1Example.bold() + "<br>" + line2 + line2Example1.bold() + " or " + line2Example2.bold() + "<br>" + line3 + "<br>" + line4 );
-
 
 // Chapter 4 Task 3 Ended
 // Chapter 5 Task 1 & 2 Started
@@ -346,80 +342,50 @@
 //     birthYear = 1999,
 //     age = currentYear - birthYear;
 
-
 //     document.write(
 //         "<br>" + heading.bold() + "<br>" + "<br>" + "Current Year: " + currentYear + "<br>"
 //         + "Birth Year: " + birthYear + "<br>" + "Your Age is: " + age
 //     );
 
-
 // Chapter 5 Task 11 Ended
 // Chapter 5 Task 12 Started
 
+// The Geometrizer:
 
+// var heading = "The Geometrizer".bold();
+// var radius = 25;
+// var pie = 3.142;
+// var circumference = 2 * pie * radius;
+// var area = pie * (radius * radius);
 
-
-
+// document.write(
+//   heading.bold() +
+//     "<br>" +
+//     "<br>" +
+//     "Radius of a Circle: " +
+//     radius +
+//     "<br>" +
+//     "The circumference is " +
+//     circumference +
+//     "<br>" +
+//     "The area is " +
+//     area
+// );
 
 // Chapter 5 Task 12 Ended
 // Chapter 5 Task 13 Started
+
+var heading = "The Lifetime Supply Calculator ".bold();
+var snack = "roll";
+var currentAge = 21;
+var maxAge = 80;
+var snacksPerDay = 2;
+
+var totalSnacks = (maxAge - currentAge) * 2;
+
+document.write()
+
 // Chapter 5 Task 13 Ended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // var days = [
 //   "Sunday",
@@ -484,3 +450,27 @@
 // console.log(age);
 // document.write(age);
 // alert(age);
+
+// function sumAB(val1, val2) {
+//   var a = val1 + val2;
+//   console.log(a);
+// }
+
+// sumAB(10, 10);
+
+// function abc(a, b, c, d, e) {
+//   var subject1 = + a;
+//   var subject2 = + b;
+//   var subject3 = + c;
+//   var subject4 = + d;
+//   var subject5 = + e;
+
+//   var result =
+//     ((subject1 + subject2 + subject3 + subject4 + subject5) / 500) * 100;
+
+//   return result;
+// }
+
+// var percentage = abc(prompt(), prompt(), prompt(), prompt(), prompt());
+
+// console.log(percentage);
