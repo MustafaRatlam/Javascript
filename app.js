@@ -375,39 +375,204 @@
 // Chapter 5 Task 12 Ended
 // Chapter 5 Task 13 Started
 
-var heading = "The Lifetime Supply Calculator ".bold();
-var snack = "roll";
-var currentAge = 21;
-var maxAge = 80;
-var snacksPerDay = 2;
+// var heading = "The Lifetime Supply Calculator ".bold();
+// var snack = "roll";
+// var currentAge = 21;
+// var maxAge = 80;
+// var snacksPerDay = 2;
 
-var totalSnacks = (maxAge - currentAge) * 2;
+// var totalSnacks = (maxAge - currentAge) * 2;
 
-document.write(
-  heading.bold() +
-    "<br>" +
-    "<br>" +
-    "Favourite snack: " +
-    snack +
-    "<br>" +
-    "Current age: " +
-    currentAge +
-    "<br>" +
-    "Estimated maximum age: " +
-    maxAge +
-    "<br>" +
-    "Amount of snacks per day: " +
-    snacksPerDay +
-    "<br>" +
-    "You will need " +
-    totalSnacks +
-    " roll to last you until the old age of " +
-    maxAge
-);
+// document.write(
+//   heading.bold() +
+//     "<br>" +
+//     "<br>" +
+//     "Favourite snack: " +
+//     snack +
+//     "<br>" +
+//     "Current age: " +
+//     currentAge +
+//     "<br>" +
+//     "Estimated maximum age: " +
+//     maxAge +
+//     "<br>" +
+//     "Amount of snacks per day: " +
+//     snacksPerDay +
+//     "<br>" +
+//     "You will need " +
+//     totalSnacks +
+//     " roll to last you until the old age of " +
+//     maxAge
+// );
 
 // Chapter 5 Task 13 Ended
 
-//
+// Chapter 6-9 Task 1 Start
+
+// var heading = "Result:".bold();
+// var a = 10;
+// document.write(
+//   heading.bold() +
+//     "<br>" +
+//     "The Value of a is: " +
+//     a +
+//     "<br>" +
+//     ".................................................." +
+//     "<br>" +
+//     "<br>"
+// );
+// var increment1 = ++a;
+
+// document.write(
+//   "  The value of ++a is: " +
+//     increment1 +
+//     "<br>" +
+//     "  Now the value of a is: " +
+//     a +
+//     "<br>" +
+//     "<br>"
+// );
+
+// var increment2 = a++;
+
+// document.write(
+//   "The value of a++ is: " +
+//     increment2 +
+//     "<br>" +
+//     "Now the value of a is: " +
+//     a +
+//     "<br>" +
+//     "<br>"
+// );
+// var decrement1 = --a;
+// document.write(
+//   "The value of --a is: " +
+//     decrement1 +
+//     "<br>" +
+//     "Now the value of a is: " +
+//     decrement1 +
+//     "<br>" +
+//     "<br>"
+// );
+// var decrement2 = a--;
+
+// document.write(
+
+//     "The value of --a is: " +
+//     decrement1 +
+//     "<br>" +
+//     "Now the value of a is: " +
+//     a);
+
+// Chapter 6-9 Task 1 Ended
+// Chapter 6-9 Task 2 Start
+
+// var a = 2;
+// var b = 1;
+
+// document.write("a is " + a + "<br>" + "b is " + b);
+
+// var firstStage = --a; // Result of this stage decrement = 1
+// var secondStage = firstStage - --b; // Result of this stage decrementation of both value  = 0
+// var thirdStage = secondStage + ++b; // Result of this stage is = 2
+// var result = thirdStage + b--;
+// console.log(result);
+// document.write("<br>" + "result is " + result);
+
+// Chapter 6-9 Task 2 Ended
+// Chapter 6-9 Task 3 Start
+
+// var a = prompt("Write your Name...");
+
+// document.write("Hello " + a);
+
+// Chapter 6-9 Task 3 Ended
+// Chapter 6-9 Task 5 Start
+
+
+// var userSubject1 = prompt("Enter subject 1");
+// var userMarks1 = +prompt("Enter Marks for Subject1");
+
+// var userSubject2 = prompt("Enter subject 2");
+// var userMarks2 = +prompt("Enter marks for Subject2");
+
+// var userSubject3 = prompt("Enter subject 3");
+// var userMarks3 = +prompt("Enter marks for Subject3");
+
+// var totalMarksForEachSubject = 100;
+
+// var percentage1 = (userMarks1 / totalMarksForEachSubject) * 100;
+// var percentage2 = (userMarks2 / totalMarksForEachSubject) * 100;
+// var percentage3 = (userMarks3 / totalMarksForEachSubject) * 100;
+
+// var cummulativeMarks =
+//   totalMarksForEachSubject +
+//   totalMarksForEachSubject +
+//   totalMarksForEachSubject;
+// var cummulativeUserMarks = userMarks1 + userMarks2 + userMarks3;
+// var cummulativeUserPercentage = (cummulativeUserMarks/cummulativeMarks)*100
+
+// var heading =
+//   "Subject" +
+//   "&nbsp &nbsp" +
+//   "Total Marks" +
+//   "&nbsp &nbsp" +
+//   "Obtain Marks" +
+//   "&nbsp &nbsp" +
+//   "Percentage";
+// var line1 =
+//   userSubject1 +
+//   "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp" +
+//   totalMarksForEachSubject +
+//   "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp" +
+//   userMarks1 +
+//   "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp" +
+//   percentage1 +
+//   "%";
+
+// var line2 =
+//   userSubject2 +
+//   "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp" +
+//   totalMarksForEachSubject +
+//   "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp" +
+//   userMarks2 +
+//   "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp" +
+//   percentage2 +
+//   "%";
+
+// var line3 =
+//   userSubject3 +
+//   "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp" +
+//   totalMarksForEachSubject +
+//   "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp" +
+//   userMarks3 +
+//   "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp" +
+//   percentage3 +
+//   "%";
+// var line4 =
+//   "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp" +
+//   cummulativeMarks +
+//   "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp" +
+//   cummulativeUserMarks +
+//   "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp" +
+//   cummulativeUserPercentage +
+//   "%";
+
+// document.write(
+//   heading.bold() +
+//     "<br>" +
+//     line1 +
+//     "<br>" +
+//     line2 +
+//     "<br>" +
+//     line3 +
+//     "<br>" +
+//     line4.bold()
+// );
+
+// Chapter 6-9 Task 6 Ended
+// Chapter  Task 6 Ended
+// Chapter 6-9 Task 6 Ended
 
 // var days = [
 //   "Sunday",
