@@ -489,7 +489,6 @@
 // Chapter 6-9 Task 3 Ended
 // Chapter 6-9 Task 5 Start
 
-
 // var userSubject1 = prompt("Enter subject 1");
 // var userMarks1 = +prompt("Enter Marks for Subject1");
 
@@ -571,8 +570,154 @@
 // );
 
 // Chapter 6-9 Task 6 Ended
-// Chapter  Task 6 Ended
-// Chapter 6-9 Task 6 Ended
+// Chapter 9-11 Task 1 Started
+
+// var city = prompt("Enter City name")
+
+// if(city =="Karachi"){
+//   document.write("Welcome to the city of Lights ")
+// }
+
+// Chapter 9-11 Task 1 Ended
+// Chapter 9-11 Task 2 started
+
+// var gender = prompt("Enter your gender")
+
+// if(gender ==="male"){
+//   document.write("Good Morning Sir.");
+// }if(gender==="female"){
+//   document.write("Good Morning Ma'am.");
+// }
+
+// Chapter 9-11 Task 2 Ended
+// Chapter 9-11 Task 3 started
+
+// var color = prompt("Enter Traffic signal color").toLowerCase();
+
+// if (color === "red") {
+//   document.write("Must Stop.");
+// }
+// if (color === "yellow") {
+//   document.write("Ready to move");
+// }
+// if (color === "green") {
+//   document.write("Move now.");
+// }
+
+// Chapter 9-11 Task 3 Ended
+
+// Chapter 9-11 Task 4 started
+
+// var fuel = prompt("Enter remaining Fuel (in litres)")
+
+// if(fuel <= 0.25){
+//   document.write("Please refill the fuel in your car");
+// }
+
+// Chapter 9-11 Task 4 Ended
+// Chapter 9-11 Task 5 Started
+
+// var a = 4;
+// if (++a === 5) {
+//   alert("given condition for variable a is true"); // Condition is true
+// }
+
+// var b = 82;
+// if (b++ === 83) {
+//   alert("given condition for variable b is true"); // given condition is not true
+// }
+
+// var c = 12;
+// if (c++ === 13) {
+//   alert("condition 1 is true"); // this condition is false
+// }
+// if (c === 13) {
+//   alert("condition 2 is true"); // this condition is true
+// }
+// if (++c < 14) {
+//   alert("condition 3 is true"); // this condition is false
+// }
+// if (c === 14) {
+//   alert("condition 4 is true"); // this condition is true
+// }
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost) { //this condition is true
+//   alert("The cost equals");
+// }
+
+// if (true) {
+//   alert("True");// this is  true
+// }
+// if (false) {
+//   alert("False"); // couldn't run
+// }
+
+// if ("car" < "cat") {
+//   alert("car is smaller than cat"); // this is true condition
+// }
+// Chapter 9-11 Task 5 Ended
+// Chapter 9-11 Task 6 Started
+
+// var subject1 = +prompt("Enter Marks for Subject 1");
+// var subject2 = +prompt("Enter Marks for Subject 2");
+// var subject3 = +prompt("Enter Marks for Subject 3");
+// var totalMarks = 300;
+// var total = subject1 + subject2 + subject3;
+// var percentage = (total / totalMarks) * 100;
+
+// var heading = "Mark sheet".bold();
+// document.write(heading.bold(), "<br>", "<br>");
+
+// document.write(
+//   "Total marks : ",
+//   totalMarks,
+//   "<br>",
+//   "Marks Obtained : ",
+//   total,"<br>"
+// );
+
+// if (percentage >= 80) {
+//   document.write(
+//     "Percentage : ",
+//     percentage,"<br>",
+//     "Grade : A-one",
+//     "<br>",
+//     "Remarks: Excellent "
+//   );
+// } else if (percentage >= 70) {
+//   document.write(
+//     "Percentage : ",
+//     percentage,
+//     "<br>",
+//     "Grade : A",
+//     "<br>",
+//     "Remarks: Good "
+//   );
+// } else if (percentage >= 60) {
+//   document.write(
+//     "Percentage : ",
+//     percentage,
+//     "<br>",
+//     "Grade : B",
+//     "<br>",
+//     "Remarks: You need to improve "
+//   );
+// } else if (percentage < 60) {
+//   document.write(
+//     "Percentage : ",
+//     percentage,
+//     "Grade : Fail",
+//     "<br>",
+//     "Remarks: Sorry "
+//   );
+// }
+
+// Chapter 9-11 Task 6 Ended
+// Chapter 9-11 Task 7 Ended
+// Chapter 9-11 Task 7 Ended
 
 // var days = [
 //   "Sunday",
