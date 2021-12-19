@@ -896,12 +896,164 @@
 //     alert("Good night!")
 // }
 
-
-
-
-
 // Chapter 12-13 Task 7 Ended
+// Chapter 14-16 Task 1 start
 
+// var myArray = [];
+
+// Chapter 14-16 Task 1 Ended
+// Chapter 14-16 Task 2 start
+
+// var myArray = {};
+
+// Chapter 14-16 Task 2 Ended
+// Chapter 14-16 Task 3 start
+
+// var students = ["a", "b", "c", "d"];
+
+// Chapter 14-16 Task 3 Ended
+// Chapter 14-16 Task 4 start
+
+// var number = [1, 2, 3, 4, 5, 6];
+
+// Chapter 14-16 Task 4 Ended
+// Chapter 14-16 Task 5 start
+
+// var boolean = [true, false];
+
+// Chapter 14-16 Task 5 Ended
+// Chapter 14-16 Task 6 start
+
+// var mixArray = [1, "a", "&", true, false, "4", 89];
+
+// Chapter 14-16 Task 6 Ended
+// Chapter 14-16 Task 7 start
+
+// var qualifications = [
+//   "SSC",
+//   "HSC",
+//   "BCS",
+//   "BS",
+//   "BCOM",
+//   "MS",
+//   "M.Phil.",
+//   "PhD",
+// ];
+
+// document.write(
+//   "Qualifications".bold(),
+//   "<br>",
+//   "<br>",
+//   "<br>",
+//   qualifications[0].bold(),
+//   "<br>",
+//   qualifications[1].bold(),
+//   "<br>",
+//   qualifications[2].bold(),
+//   "<br>",
+//   qualifications[3].bold(),
+//   "<br>",
+//   qualifications[4].bold(),
+//   "<br>",
+//   qualifications[5].bold(),
+//   "<br>",
+//   qualifications[6].bold(),
+//   "<br>",
+//   qualifications[7].bold(),
+//   "<br>",
+
+// );
+
+// Chapter 14-16 Task 7 Ended
+// Chapter 14-16 Task 8 start
+
+// var studentsName = ["Ali", "Mustafa", "Haider"];
+// var score = [320, 480, 230];
+// var total = 500;
+// var percentage = [
+//   (score[0] / total) * 100,
+//   (score[1] / total) * 100,
+//   (score[2] / total) * 100,
+// ];
+
+// document.write(
+//   "Score of ",
+//   studentsName[0],
+//   " is ",
+//   score[0],
+//   ".",
+//   " Percentage: ",
+//   percentage[0],
+//   "%",
+//   "<br>",
+//   "Score of ",
+//   studentsName[1],
+//   " is ",
+//   score[1],
+//   ".",
+//   " Percentage: ",
+//   percentage[1],
+//   "%",
+//   "<br>",
+//   "Score of ",
+//   studentsName[2],
+//   " is ",
+//   score[2],
+//   ".",
+//   " Percentage: ",
+//   percentage[2],
+//   "%",
+//   "<br>"
+// );
+
+// Chapter 14-16 Task 8 Ended
+// Chapter 14-16 Task 9 start
+
+// var colors = ["yellow", "indigo", "red"];
+// document.write("Default Color Array", "<br>", colors, "<br>", "<br>");
+
+// var userColor1 = prompt("Enter the color you wanna add at the beginning");
+// colors.unshift(userColor1);
+// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+
+// var userColor2 = prompt("Enter the color you wanna add at the end");
+// colors.push(userColor2);
+// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+
+// var userColor3 = prompt("Enter the more color you wanna add at the beginning");
+// var userColor4 = prompt("Enter the more color you wanna add at the beginning");
+// colors.unshift(userColor3, userColor4);
+// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+
+// colors.shift();
+// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+// colors.pop()
+// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+
+// var userColor5= prompt("Enter the color name")
+// var positionColor5 = prompt("Enter the index/position number you want to add the color")
+// colors.splice(positionColor5,userColor5)
+// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+
+
+
+// var userColor6= prompt("Enter the color name you want to delete")
+// var positionColor6 = prompt("Enter the index/position number you want to del the color")
+// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+
+// Chapter 14-16 Task 9 Ended
+// Chapter 14-16 Task 10 start
+
+// var scores=[320,230,480,120,500]
+// document.write("Scores of Students : ", scores,"<br>")
+// document.write("OrderedScores of Students : ", scores.sort())
+
+
+// Chapter 14-16 Task 10 Ended
+// Chapter 14-16 Task  start
+// Chapter 14-16 Task  Ended
+// Chapter 14-16 Task  start
+// Chapter 14-16 Task  Ended
 
 // var days = [
 //   "Sunday",
