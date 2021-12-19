@@ -717,7 +717,79 @@
 
 // Chapter 9-11 Task 6 Ended
 // Chapter 9-11 Task 7 Ended
+
+// var a = prompt("Guess The secret Number")
+
+// if (a === "7"){
+//   document.write("Bingo! Correct answer");
+// }else if (a === "8" || a === "6"){
+//   document.write("Close enough to the correct answer");
+// }
+
 // Chapter 9-11 Task 7 Ended
+// Chapter 9-11 Task 8 Started
+
+// var input = +prompt("Enter Number");
+
+// if (input % 3 === 0) {
+//   document.write("Divisible by 3");
+// } else {
+//   document.write("Not Divisible by 3");
+// }
+
+// Chapter 9-11 Task 8 Ended
+// Chapter 9-11 Task 9 Start
+
+// var input = +prompt("Enter Number")
+
+// if (input%2 === 0){
+//   document.write("The number is Even")
+// }else{
+//   document.write("The number is odd")
+// }
+
+// Chapter 9-11 Task 9 Ended
+// Chapter 9-11 Task 10 Started
+
+// var temp = +prompt("Enter the Temperature");
+
+// if (temp >= 40) {
+//   document.write("It is too hot outside.");
+// } else if (temp >= 30) {
+//   document.write("The Weather today is Normal.");
+// } else if (temp >= 20) {
+//   document.write("Today's Weather is cool.");
+// } else if (temp >= 10) {
+//   document.write("OMG! Today’s weather is so Cool.");
+// }
+
+// Chapter 9-11 Task 10 Ended
+// Chapter 9-11 Task 11 Start
+
+// var a = +prompt("Enter First Number");
+// var b = +prompt("Enter Second Number");
+// var operation = prompt(
+//   "Enter the operation you wanna perform in following (+,-,*,/,%)"
+// );
+
+// if (operation === "+") {
+//   c = a + b;
+//   document.write("The result for addition: " + c);
+// } else if (operation === "-") {
+//   c = a - b;
+//   document.write("The result for Subtraction: " + c);
+// } else if (operation === "*") {
+//   c = a * b;
+//   document.write("The result for multiplication: " + c);
+// } else if (operation === "/") {
+//   c = a / b;
+//   document.write("The result for division: " + c);
+// } else if (operation === "%") {
+//   c = a % b;
+//   document.write("The result for modulus: " + c);
+// }
+
+// Chapter 9-11 Task 11 Ended
 
 // var days = [
 //   "Sunday",
