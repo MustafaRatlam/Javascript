@@ -790,6 +790,118 @@
 // }
 
 // Chapter 9-11 Task 11 Ended
+// Chapter 12-13 Task 1 Start
+
+// var input = prompt("Enter Character");
+
+//   if (input >= "A" && input <= "Z") {
+//     document.write("Character is UpperCase letter");
+//   } else if (input >= "a" && input <= "z") {
+//     document.write("Character is LowerCase letter");
+//   } else if (input >= "0" && input <= "9") {
+//     document.write("Character is number");
+//   }
+
+// Chapter 12-13 Task 1 Ended
+// Chapter 12-13 Task 2 Start
+
+// var number1 = prompt("Enter first integer");
+// var number2 = prompt("Enter second integer");
+
+// if (number1 > number2) {
+//   document.write("larger integer is " + number1);
+// } else if (number1 < number2) {
+//   document.write("larger integer is " + number2);
+// } else if (number1 === number1) {
+//   document.write("both integers are equal ");
+// }
+
+// Chapter 12-13 Task 2 Ended
+// Chapter 12-13 Task 3 Start
+
+// var input = prompt("Enter a number");
+
+// if (input > 0) {
+//   document.write("The number is positive.");
+// } else if (input < 0) {
+//   document.write("the number is negative. ");
+// } else if (input == 0) {
+//   document.write("the number is zero");
+// }
+
+// Chapter 12-13 Task 3 Ended
+// Chapter 12-13 Task 4 Started
+
+// var input = prompt("enter a character").toLowerCase();
+
+// if (
+//   input == "a" ||
+//   input == "e" ||
+//   input == "i" ||
+//   input == "o" ||
+//   input == "u"
+// ) {
+//   document.write("true");
+// } else {
+//   document.write("false");
+// }
+
+// Chapter 12-13 Task 4 Ended
+// Chapter 12-13 Task 5 start
+
+// var userPass = prompt("Enter your Password");
+// var correctPass = "Mustafa123";
+
+// if (userPass === "") {
+//   alert("Please enter your password");
+// } else if (userPass === correctPass) {
+//   document.write(
+//     "Correct! The password you entered matches the original password"
+//   );
+// } else if (correctPass !== userPass) {
+//   document.write("Incorrect password");
+// }
+
+// Chapter 12-13 Task 5 Ended
+// Chapter 12-13 Task 6 start
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//   greeting = "Good day";
+//   alert(greeting)
+// } else {
+//   greeting = "Good evening";
+//   alert(greeting)
+// }
+
+// Chapter 12-13 Task 6 Ended
+// Chapter 12-13 Task 7 start
+
+// var time = prompt("Enter time in 24HR Format ")
+
+// if (time >= 0000 && time < 1200){
+//     alert("Good morning!")
+// }else
+
+// if (time >= 1200 && time < 1700){
+//     alert("Good afternoon!")
+// }else
+
+// if (time >= 1700 && time < 2100){
+//     alert("Good evening!")
+// }else
+
+// if (time >= 2100 && time < 2359){
+//     alert("Good night!")
+// }
+
+
+
+
+
+// Chapter 12-13 Task 7 Ended
+
 
 // var days = [
 //   "Sunday",
