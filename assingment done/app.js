@@ -106,7 +106,7 @@
 // document.write(
 //   "My birth year is " +
 //     birthYear +
-//     "<br>"+
+//     
 //     "Data type of my declared variable is number"
 // );
 
@@ -164,7 +164,7 @@
 //   line4 = "Variable names should not be JS keywords.";
 
 // document.write(
-//   heading.bold() + "<br>" + "<br>" + line1 + line1Example.bold() + "<br>" + line2 + line2Example1.bold() + " or " + line2Example2.bold() + "<br>" + line3 + "<br>" + line4 );
+//   heading.bold() + + + line1 + line1Example.bold() + + line2 + line2Example1.bold() + " or " + line2Example2.bold() + + line3 + + line4 );
 
 // Chapter 4 Task 3 Ended
 // Chapter 5 Task 1 & 2 Started
@@ -196,19 +196,19 @@
 
 // document.write(
 //   "Value after the variable declaration is undefined." +
-//     "<br>" +
+//     +
 //     "Initial value is: " +
 //     a +
-//     "<br>" +
+//     +
 //     "Value after increment is: " +
 //     incrementValue +
-//     "<br>" +
+//     +
 //     "Value after addition is: " +
 //     added7 +
-//     "<br>" +
+//     +
 //     "Value after decrement is: " +
 //     decrementValue +
-//     "<br>" +
+//     +
 //     "The remainder  is: " +
 //     remainderValue );
 
@@ -224,13 +224,13 @@
 // Chapter 5 Task 5 Started
 
 // var a = 4;
-// document.write("Table of " + a + "<br>")
+// document.write("Table of " + a + 
 
 // for (var i = 1; i <= 10; i++){
 
 //     b = a * i;
 
-//     document.write(a + " x " + i + " = " + b + "<br>");
+//     document.write(a + " x " + i + " = " + b + ;
 
 // };
 
@@ -249,7 +249,7 @@
 //     " is " +
 //     f +
 //     "°F" +
-//     "<br>" +
+//     +
 //     valueOfFahrenheit +
 //     "°F" +
 //     " is " +
@@ -273,24 +273,24 @@
 
 // document.write(
 //   heading.bold() +
-//     "<br>" +
-//     "<br>" +
+//     +
+//     +
 //     "Price of Item 1 is " +
 //     price1 +
-//     "<br>" +
+//     +
 //     "Quantity for Item 1 is " +
 //     quantity1 +
-//     "<br>" +
+//     +
 //     "Price of Item 2 is " +
 //     price2 +
-//     "<br>" +
+//     +
 //     "Quantity for Item 2 is " +
 //     quantity2 +
-//     "<br>" +
+//     +
 //     "Shipping charges" +
 //     shippingCharges +
-//     "<br>" +
-//     "<br>" +
+//     +
+//     +
 //     "Total cost of your Order is " +
 //     totalCost
 // );
@@ -304,8 +304,8 @@
 //     marksObtain = 804,
 //     percentage = (marksObtain / totalMarks) * 100;
 
-// document.write( heading.bold() + "<br>" + "<br>" +
-//     "Total Marks: " + totalMarks + "<br>" + "Marks Obtain: " + marksObtain + "<br>" + "Percentage: " + percentage + "%"
+// document.write( heading.bold() + + +
+//     "Total Marks: " + totalMarks + + "Marks Obtain: " + marksObtain + + "Percentage: " + percentage + "%"
 //     );
 
 // Chapter 5 Task 8 Ended
@@ -317,11 +317,11 @@
 //     totalInPkr = (usDollar * 104.80) + (saudiRiyal * 28);
 
 //     document.write(
-//        "<br>" +
+//        +
 //         heading.bold() +
-//         "<br>" +
-//         "<br>" +
-//         "<br>" +
+//         +
+//         +
+//         +
 //         "Total Currency in PKR is " +
 //         totalInPkr
 //     );
@@ -343,8 +343,7 @@
 //     age = currentYear - birthYear;
 
 //     document.write(
-//         "<br>" + heading.bold() + "<br>" + "<br>" + "Current Year: " + currentYear + "<br>"
-//         + "Birth Year: " + birthYear + "<br>" + "Your Age is: " + age
+//         + heading.bold() + + + "Current Year: " + currentYear + //         + "Birth Year: " + birthYear + + "Your Age is: " + age
 //     );
 
 // Chapter 5 Task 11 Ended
@@ -360,14 +359,14 @@
 
 // document.write(
 //   heading.bold() +
-//     "<br>" +
-//     "<br>" +
+//     +
+//     +
 //     "Radius of a Circle: " +
 //     radius +
-//     "<br>" +
+//     +
 //     "The circumference is " +
 //     circumference +
-//     "<br>" +
+//     +
 //     "The area is " +
 //     area
 // );
@@ -385,20 +384,20 @@
 
 // document.write(
 //   heading.bold() +
-//     "<br>" +
-//     "<br>" +
+//     +
+//     +
 //     "Favourite snack: " +
 //     snack +
-//     "<br>" +
+//     +
 //     "Current age: " +
 //     currentAge +
-//     "<br>" +
+//     +
 //     "Estimated maximum age: " +
 //     maxAge +
-//     "<br>" +
+//     +
 //     "Amount of snacks per day: " +
 //     snacksPerDay +
-//     "<br>" +
+//     +
 //     "You will need " +
 //     totalSnacks +
 //     " roll to last you until the old age of " +
@@ -413,54 +412,50 @@
 // var a = 10;
 // document.write(
 //   heading.bold() +
-//     "<br>" +
+//     +
 //     "The Value of a is: " +
 //     a +
-//     "<br>" +
+//     +
 //     ".................................................." +
-//     "<br>" +
-//     "<br>"
-// );
+//     +
+//     // );
 // var increment1 = ++a;
 
 // document.write(
 //   "  The value of ++a is: " +
 //     increment1 +
-//     "<br>" +
+//     +
 //     "  Now the value of a is: " +
 //     a +
-//     "<br>" +
-//     "<br>"
-// );
+//     +
+//     // );
 
 // var increment2 = a++;
 
 // document.write(
 //   "The value of a++ is: " +
 //     increment2 +
-//     "<br>" +
+//     +
 //     "Now the value of a is: " +
 //     a +
-//     "<br>" +
-//     "<br>"
-// );
+//     +
+//     // );
 // var decrement1 = --a;
 // document.write(
 //   "The value of --a is: " +
 //     decrement1 +
-//     "<br>" +
+//     +
 //     "Now the value of a is: " +
 //     decrement1 +
-//     "<br>" +
-//     "<br>"
-// );
+//     +
+//     // );
 // var decrement2 = a--;
 
 // document.write(
 
 //     "The value of --a is: " +
 //     decrement1 +
-//     "<br>" +
+//     +
 //     "Now the value of a is: " +
 //     a);
 
@@ -470,14 +465,14 @@
 // var a = 2;
 // var b = 1;
 
-// document.write("a is " + a + "<br>" + "b is " + b);
+// document.write("a is " + a + + "b is " + b);
 
 // var firstStage = --a; // Result of this stage decrement = 1
 // var secondStage = firstStage - --b; // Result of this stage decrementation of both value  = 0
 // var thirdStage = secondStage + ++b; // Result of this stage is = 2
 // var result = thirdStage + b--;
 // console.log(result);
-// document.write("<br>" + "result is " + result);
+// document.write(+ "result is " + result);
 
 // Chapter 6-9 Task 2 Ended
 // Chapter 6-9 Task 3 Start
@@ -559,13 +554,13 @@
 
 // document.write(
 //   heading.bold() +
-//     "<br>" +
+//     +
 //     line1 +
-//     "<br>" +
+//     +
 //     line2 +
-//     "<br>" +
+//     +
 //     line3 +
-//     "<br>" +
+//     +
 //     line4.bold()
 // );
 
@@ -669,40 +664,39 @@
 // var percentage = (total / totalMarks) * 100;
 
 // var heading = "Mark sheet".bold();
-// document.write(heading.bold(), "<br>", "<br>");
+// document.write(heading.bold(),  ;
 
 // document.write(
 //   "Total marks : ",
 //   totalMarks,
-//   "<br>",
+//   
 //   "Marks Obtained : ",
-//   total,"<br>"
-// );
+//   total,// );
 
 // if (percentage >= 80) {
 //   document.write(
 //     "Percentage : ",
-//     percentage,"<br>",
+//     percentage,
 //     "Grade : A-one",
-//     "<br>",
+//     
 //     "Remarks: Excellent "
 //   );
 // } else if (percentage >= 70) {
 //   document.write(
 //     "Percentage : ",
 //     percentage,
-//     "<br>",
+//     
 //     "Grade : A",
-//     "<br>",
+//     
 //     "Remarks: Good "
 //   );
 // } else if (percentage >= 60) {
 //   document.write(
 //     "Percentage : ",
 //     percentage,
-//     "<br>",
+//     
 //     "Grade : B",
-//     "<br>",
+//     
 //     "Remarks: You need to improve "
 //   );
 // } else if (percentage < 60) {
@@ -710,7 +704,7 @@
 //     "Percentage : ",
 //     percentage,
 //     "Grade : Fail",
-//     "<br>",
+//     
 //     "Remarks: Sorry "
 //   );
 // }
@@ -942,25 +936,25 @@
 
 // document.write(
 //   "Qualifications".bold(),
-//   "<br>",
-//   "<br>",
-//   "<br>",
+//   
+//   
+//   
 //   qualifications[0].bold(),
-//   "<br>",
+//   
 //   qualifications[1].bold(),
-//   "<br>",
+//   
 //   qualifications[2].bold(),
-//   "<br>",
+//   
 //   qualifications[3].bold(),
-//   "<br>",
+//   
 //   qualifications[4].bold(),
-//   "<br>",
+//   
 //   qualifications[5].bold(),
-//   "<br>",
+//   
 //   qualifications[6].bold(),
-//   "<br>",
+//   
 //   qualifications[7].bold(),
-//   "<br>",
+//   
 
 // );
 
@@ -985,7 +979,7 @@
 //   " Percentage: ",
 //   percentage[0],
 //   "%",
-//   "<br>",
+//   
 //   "Score of ",
 //   studentsName[1],
 //   " is ",
@@ -994,7 +988,7 @@
 //   " Percentage: ",
 //   percentage[1],
 //   "%",
-//   "<br>",
+//   
 //   "Score of ",
 //   studentsName[2],
 //   " is ",
@@ -1003,49 +997,48 @@
 //   " Percentage: ",
 //   percentage[2],
 //   "%",
-//   "<br>"
-// );
+//   // );
 
 // Chapter 14-16 Task 8 Ended
 // Chapter 14-16 Task 9 start
 
 // var colors = ["yellow", "indigo", "red"];
-// document.write("Default Color Array", "<br>", colors, "<br>", "<br>");
+// document.write("Default Color Array",  colors,  ;
 
 // var userColor1 = prompt("Enter the color you wanna add at the beginning");
 // colors.unshift(userColor1);
-// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+// document.write("Updated Color Array",  colors,  ;
 
 // var userColor2 = prompt("Enter the color you wanna add at the end");
 // colors.push(userColor2);
-// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+// document.write("Updated Color Array",  colors,  ;
 
 // var userColor3 = prompt("Enter the more color you wanna add at the beginning");
 // var userColor4 = prompt("Enter the more color you wanna add at the beginning");
 // colors.unshift(userColor3, userColor4);
-// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+// document.write("Updated Color Array",  colors,  ;
 
 // colors.shift();
-// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+// document.write("Updated Color Array",  colors,  ;
 // colors.pop()
-// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+// document.write("Updated Color Array",  colors,  ;
 
 // var userColor5= prompt("Enter the color name")
 // var positionColor5 = prompt("Enter the index/position number you want to add the color")
 // colors.splice(positionColor5,userColor5)
-// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+// document.write("Updated Color Array",  colors,  ;
 
 
 
 // var userColor6= prompt("Enter the color name you want to delete")
 // var positionColor6 = prompt("Enter the index/position number you want to del the color")
-// document.write("Updated Color Array", "<br>", colors, "<br>", "<br>");
+// document.write("Updated Color Array",  colors,  ;
 
 // Chapter 14-16 Task 9 Ended
 // Chapter 14-16 Task 10 start
 
 // var scores=[320,230,480,120,500]
-// document.write("Scores of Students : ", scores,"<br>")
+// document.write("Scores of Students : ", scores,
 // document.write("OrderedScores of Students : ", scores.sort())
 
 
@@ -1142,3 +1135,39 @@
 // var percentage = abc(prompt(), prompt(), prompt(), prompt(), prompt());
 
 // console.log(percentage);
+
+function getValue(){
+    var nameInput = document.getElementById("name");
+    var lastNameInput = document.getElementById("lastName");
+    var emailInput = document.getElementById("email");
+    var contactInput = document.getElementById("contact");
+    var cnicInput = document.getElementById("cnic");
+    var passwordInput = document.getElementById("password");
+
+    var a = nameInput.value
+    var b = lastNameInput.value
+    var c = emailInput.value
+    var d = contactInput.value
+    var e = cnicInput.value
+    var f = passwordInput.value
+
+    var aPera = document.getElementById("showName");
+    var bPera = document.getElementById("showLastName");
+    var cPera = document.getElementById("showEmail");
+    var dPera = document.getElementById("showContact");
+    var ePera = document.getElementById("showCnic");
+    var fPera = document.getElementById("showPassword");
+    
+
+    
+    console.log(a, "\n", b, "\n", c, "\n", d, "\n", e,"\n", f);
+
+    
+
+
+
+
+}
+
+
+
