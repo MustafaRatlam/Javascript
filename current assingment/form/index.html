@@ -15,27 +15,182 @@
         <div class="form">
             <div class="header">
                 <div class="logo">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Board_of_Intermediate_Education%2C_Karachi_Logo.svg/100px-Board_of_Intermediate_Education%2C_Karachi_Logo.svg.png" alt="" >
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Board_of_Intermediate_Education%2C_Karachi_Logo.svg/100px-Board_of_Intermediate_Education%2C_Karachi_Logo.svg.png"
+                        alt="">
                 </div>
-                
+
                 <div class="heading">
                     <center>
                         <h1 class="main-heading"><u> Board Of Intermediate Education, Karachi</u></h1>
                         <h2 class="subheading">Examination Form for H.S.C Part-I Commerce Group <br>
                             For Private Candidates Annual</h2>
-                    
+
                     </center>
                 </div>
             </div>
             <div class="main-form">
                 <div class="inputs-fields">
-                      
+                    <!-- Main Input Fields Start -->
+                    <div class="main-input">
+                        <div class="name">
+                            <label for="" class="label-name">Name: </label><input type="text" class="input-name">
+                        </div>
+                        <div class="father-name">
+                            <label for="" class="label-fathersname">Fathers Name: </label><input type="text"
+                                class="input-fathersname">
+                        </div>
+                        <div class="dateofbirth">
+                            <label for="" class="label-dateofbirth"> Date of Birth: </label> <input type="date" name=""
+                                id="" class="input-dateofbirth">
+                        </div>
+                        <div class="nationality">
+                            <label for="" class="label-nationality">Nationality: </label><select name="" id=""
+                                class="input-nationality">
+                                <option value="Pakistani">Pakistani</option>
+                                <option value="Non-Pakistani">Non-Pakistani</option>
+                            </select>
+                        </div>
+                        <div class="gender">
+                            <label for="" class="label-gender">Gender: </label>
+                            <Input class="input-gender" type="radio" value="Male">Male</Input>
+                            <Input class="input-gender" type="radio" value="Female">Female</Input>
+                        </div>
+                        <div class="religion">
+                            <label for="" class="label-religion">
+                                Religion:
+                            </label>
+                            <input type="text" class="input-religion">
+                        </div>
+                        <div class="address">
+                            <label for="" class="label-address">Address: </label>
+                            <textarea name="" id="" cols="50" rows="2" class="textarea-address" wrap="soft"></textarea>
 
+                        </div>
+                        <div class="cnicnumber">
+                            <label for="" class="label-cnicnumber">C.N.I.C.No.</label>
+                            <input type="text" name="" id="" class="input-cnicnumber">
+                        </div>
+                        <div class="contact">
+                            <label for="" class="label-contact">Contact No.</label>
+                            <input type="text" name="" id="" class="contact">
+                        </div>
+                        <div class="mark">
+                            <label for="" class="label-mark">
+                                Identification Mark:
+                            </label>
+                            <input type="text" class="input-mark">
+                            <div class="postcode">
+                                <label for="" class="label-postcode">
+                                    Post-Code:
+                                </label>
+                                <input type="text" class="input-postcode">
+                            </div>
+                        </div>
+                        <!-- Main field input end -->
+                        <!-- Examination Detail Table -->
+
+                        <div class="exam-datails">
+                            <h2>
+                                <center>
+                                    Details of Previous Examination Passed / Cleared
+                                </center>
+                            </h2>
+                            <table class="exam-table">
+                                <tr class="first-row">
+                                    <th class="s-no">
+                                        S.No.
+                                    </th>
+
+                                    <th class="exam-heading">Name Of Examination</th>
+                                    <th class="exam-heading">Board / Examination Body</th>
+                                    <th class="exam-heading">Roll No.</th>
+                                    <th class="exam-heading">Group</th>
+                                    <th class="exam-heading">Year</th>
+                                    <th class="exam-heading">Garde</th>
+                                    <th class="exam-heading">Marks</th>
+                                </tr>
+                                <tr>
+                                    <td>1.</td>
+                                    <td>S.S.C or Equivalent</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>H.S.C Part-I <br>
+                                        (External)</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!-- Table End -->
+                        <!-- Compulsory Subjects Start -->
+                        <div class="compulsory-subjects">
+                            <center>
+                                <h2>Compulsory Subjects</h2>
+                            </center>
+                            <div class="compulsory-subject1">
+                                <input class="checkbox-compulsorysubjects" type="checkbox" name="" id="">
+                                <label class="label-compulsorysubject">Urdu Normal <span class="disabled-text">(For Normal Candidates)</span></label>
+                            </div>
+                            <div class="compulsory-subject2">
+                                <input class="checkbox-compulsorysubjects" type="checkbox" name="" id="">
+                                
+                                <label class="label-compulsorysubject">Urdu Easy <span class="disabled-text">(With Boards Permission)</span></label>
+                            </div>
+                            <div class="compulsory-subject3">
+                                <input class="checkbox-compulsorysubjects" type="checkbox" name="" id="">
+                                <label class="label-compulsorysubject">Urdu Non Mother Tongue <span>(With Boards Permission)</span></label>
+                                
+                            </div>
+                            <div class="compulsory-subject4">
+                                <input class="checkbox-compulsorysubjects" type="checkbox" name="" id="">
+                                <label class="label-compulsorysubject">History & Culture Of PAkistan <span class="disabled-text">(For Foreign)</span></label>
+                                
+                            </div>
+                            <div class="compulsory-subject5">
+                                <input class="checkbox-compulsorysubjects" type="checkbox" name="" id="">
+                                <label class="label-compulsorysubject">English Normal <span class="disabled-text">(For Normal Candidates)</span></label>
+                                
+                            </div>
+                            <div class="compulsory-subject6">
+                                <input class="checkbox-compulsorysubjects" type="checkbox" name="" id="">
+                                <label class="label-compulsorysubject">English Advanced <span class="disabled-text">(With Boards Permission)</span></label>
+                                
+                            </div>
+                            <div class="compulsory-subject7">
+                                <input class="checkbox-compulsorysubjects" type="checkbox" name="" id="">
+                                <label class="label-compulsorysubject">Islamiat <span class="disabled-text">(For Muslims)</span></label>
+                                
+                            </div>
+                            <div class="compulsory-subject8">
+                                <input class="checkbox-compulsorysubjects" type="checkbox" name="" id="">
+                                <label class="label-compulsorysubject">Civics<span class="disabled-text">(For Non-Muslims)</span></label>
+                                
+                            </div>
+                        </div>
+
+
+
+
+
+                        <!-- Compulsory Subjects End -->
+
+
+                    </div>
                 </div>
-            </div>
 
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
