@@ -1,0 +1,27 @@
+:root {
+  --primaryColor: #a3e4db;
+  --lightGray: #f0ece3;
+  --textColorBlue: #1c6dd0;
+  --textColorGray: #667c78;
+}
+.backgroundColorGray {
+  background-color: var(--lightGray);
+}
+.textColorBlue{
+    color: var(--textColorBlue);
+}
+.textColorGray{
+    color: var(--textColorGray);
+}
+.backgroundColor{
+    background-color: var(--primaryColor);
+}
+#questionDisplay{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+#answerParent button{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+}
