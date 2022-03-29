@@ -7,7 +7,6 @@ let mustafa = {
 // extracting keys and values separately
 
 let keys = Object.keys(mustafa);
-
 console.log(keys);
 
 let values = Object.values(mustafa);
