@@ -147,11 +147,51 @@
 
 //======================================= spread Operators =========================
 
-let masterDetail = {
-  institute: "SAIMS",
-};
-let a = {
-  id: 10,
-  name: "abc",
-  class: "C",
-};
+// let masterDetail = {
+//   institute: "SAIMS",
+//   GRN : 1233,
+//   type: "A"
+// };
+// let a = {
+//   id: 10,
+//   name: "abc",
+//   class: "C",
+//   ...masterDetail,
+// };
+
+// console.log(a)
+
+//==================================== Types of Functions ==========================
+
+// ======== Arrow function =========
+
+// let abc = (a) => {
+//   console.log(a);
+// };
+
+// abc("Message");
+
+// let xyz = (a) => {
+//   return a;
+// };
+
+// console.log(xyz("Hello Mustafa"))
+
+// let abc = a => {
+//   console.log(a);
+// };
+
+// abc("hello");
+
+// let a = () => "Hello Mustafa";
+
+// console.log(a());
+
+// let abc = (a, b) => a == b ? a + b : "error";
+// console.log (abc(10,19))
+
+// let abc = (a, b) => a + b;
+// console.log(abc(10, 10));
+
+// let abc = () => "Message";
+// console.log(abc());
