@@ -195,3 +195,26 @@
 
 // let abc = () => "Message";
 // console.log(abc());
+
+//****Higher Order Function */
+// When a function called in the parameter of of the parent function it is called high order function.
+
+// let a = (e) => {
+//   console.log(e);
+// };
+
+// let b = () => {
+//     return "Function B "
+// }
+
+// a(b()) // callback function b() is called when a parent when a() is called.
+
+let a = () => {
+    return ()=>{
+        console.log("abc")
+
+    }
+}
+
+let b = a()
+b()
