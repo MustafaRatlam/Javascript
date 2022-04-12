@@ -629,40 +629,25 @@ let objects = [
   },
 ];
 
-let select = document.getElementById("dropdown");
-let search = document.getElementById("searchBox");
-let display = document.getElementById("display").value;
-
 // code for search bar
 
-// to find the keys in and aray of object merged all objects in a single object by creating a duplicate object
-let keys = Object.keys(Object.assign({}, ...objects));
-console.log(keys);
+// extracting keys and filtering it in data
 
-// adding option values to select
-for (i = 0; i < keys.length; i++) {
-  select.innerHTML += `<option value="${keys[i]}">${keys[i]}</option>`;
-}
-
- 
-  
-
-
-getValues = (a, b) => {
-  let output = [];
-  for (i = 0; i < a.length; ++i) 
-    output.push(a[i][b]);
-    return output;
-  
+let init = () => {
+  let keys = Object.keys(objects[0]);
+  console.log(keys);
+  let select = document.getElementById("dropdown");
+  keys.map((x) => (select.innerHTML += `<option values='${x}'>${x}</option>`));
 };
-function getSelectedValue() {
-  let selectedValue = select.value;
-  let values = getValues(objects, selectedValue);
- search.addEventListener("input",(e)=>{
-  const value= e.target.value
-  
- })
 
-}
+let searchVal = () => {
+  let select = document.getElementById("dropdown").value;
+  let search = document.getElementById("searchBox").value;
+  let display = document.getElementById("display");
 
+  let filterData = objects.filter((x) => x[select].includes(search));
 
+  console.log(filterData);
+};
+
+init();

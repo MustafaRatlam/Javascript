@@ -14,8 +14,8 @@
     <h1 class="ms-5">Search Bar </h1>
 
 <div class="search-bar mx-auto">
-   <div class="mx-auto w-50 d-flex"> <select name="" id="dropdown" class="form-select-sm ms-5 " onchange="getSelectedValue()"></select>
-    <input type="text" id="searchBox" class="form-control-sm w-100  " ></div>
+   <div class="mx-auto w-50 d-flex"> <select name="" id="dropdown" class="form-select-sm ms-5 " ></select>
+    <input onkeyup="searchVal()" type="text" id="searchBox" class="form-control-sm w-100  " ></div>
 </div>
 <div class="display">
     <textarea name="" id="display" cols="30" rows="10" class="form-control w-50 mx-auto mt-5" disabled></textarea>
