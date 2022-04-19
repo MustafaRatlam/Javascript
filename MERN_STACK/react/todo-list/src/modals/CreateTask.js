@@ -7,6 +7,8 @@ const CreateTaskPopup = ({ modal, toggle, save }) => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+    
+    
 
     if (name === "taskName") {
       setTaskName(value);
@@ -19,6 +21,8 @@ const CreateTaskPopup = ({ modal, toggle, save }) => {
     taskObj["Name"] = taskName;
     taskObj["Description"] = description;
     save(taskObj);
+    setTaskName("")
+    setDescription("")
   };
   return (
     <Modal isOpen={modal} toggle={toggle}>

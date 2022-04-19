@@ -1,28 +1,33 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
-import { Button, Alert, Card ,Form} from "react-bootstrap/";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [arr, setArr]= useState(["1","2","3","4","5"])
-  const [text, setText] = useState("")
+  const [text, setText] = useState("");
+  const [textArr, setTextArr] = useState([]);
 
+  const addTodo = () => {
+    setTextArr([...textArr, text]);
+    setText("");
+  };
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <Form>
-          <Form.Group>
-            <Form.Control type="text" placeholder="Enter your Memo" ></Form.Control>
-          </Form.Group>
-        </Form>
-        
-      
-        <p>{text}</p>
-        {arr.map((e, i)=>{return <h1>{e}</h1>})}
-      <p></p>
+        <input
+          type="text"
+          value={text}
+          className="form-control-lg mb-3"
+          placeholder="Enter text"
+          onChange={(e) => setText(e.target.value)}
+        />
+        <button className="btn btn-primary" onClick={() => addTodo()}>
+          {""}
+          Add
+        </button>
+
+        {textArr.map((e, i) => {
+          return <h1 key={i}>{e}</h1>;
+        })}
       </header>
     </div>
   );

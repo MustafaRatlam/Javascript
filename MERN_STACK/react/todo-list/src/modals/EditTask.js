@@ -55,7 +55,8 @@ const UpdateTaskPopup = ({ modal, toggle, updateTask, taskObj }) => {
       <ModalFooter>
         <Button color="primary" onClick={handleUpdate}>
           Update
-        </Button>{""}
+        </Button>
+        {""}
         <Button color="secondary" onClick={toggle}>
           Cancel
         </Button>
