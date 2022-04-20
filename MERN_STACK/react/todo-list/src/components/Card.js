@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import EditTask from "../modals/EditTask";
+import EditTask from "./modals/EditTask";
 
 const Card = ({ taskObj, index, deleteTask, updateListArray }) => {
   const [modal, setModal] = useState(false);
@@ -30,7 +30,7 @@ const Card = ({ taskObj, index, deleteTask, updateListArray }) => {
     setModal(!modal);
   };
   const updateTask = (obj) => {
-    updateListArray(obj,index)
+    updateListArray(obj, index);
   };
   const handleDelete = () => {
     deleteTask(index);
