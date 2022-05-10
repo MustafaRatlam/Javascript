@@ -1,14 +1,13 @@
 import React from "react";
 
-const Quizapp = () => {
+const Navbar = () => {
   return (
-    <div className="container d-flex bg-primary ">
+    <div className="">
       <div
         className="
           container
-          bg-success
-          p-3
-          my-3
+          bg-secondary
+          mt-5
           d-flex
           justify-content-between
         "
@@ -26,4 +25,4 @@ const Quizapp = () => {
   );
 };
 
-export default Quizapp;
+export default Navbar;
