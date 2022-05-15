@@ -4,7 +4,7 @@
 
 
 .App-header {
-  padding-top: 5rem;
+  
   background-color: rgba(107, 113, 68, 0.133);
   min-height: 100vh;
   display: flex;
@@ -21,3 +21,4 @@
   width: 18rem;
   margin: 2rem;
 }
+
