@@ -1,18 +1,17 @@
 import React, { useState } from "react";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import CardApp from "./card/cardapp";
+import AppBar from "./components/header/header";
+
+
 
 function App() {
-  const [showCard, setShowCard] = useState(false);
-  const showCardApp = () => {
-    setShowCard(!showCard);
-  };
+  
+  
   return (
     <div className="App">
       <header className="App-header">
         
-          <CardApp />
+      <AppBar/>
       
       
       </header>
