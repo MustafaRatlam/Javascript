@@ -1,24 +1,18 @@
 .App {
   text-align: center;
+  
 }
 
 
 .App-header {
   
-  background-color: rgba(107, 113, 68, 0.133);
+  background-color: rgba(198, 223, 30, 0.133);
   min-height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  direction: row;
-  align-items: center;
-  justify-content: center;
+  
   font-size: calc(10px + 2vmin);
   
 }
 
 
-.card-cs{
-  width: 18rem;
-  margin: 2rem;
-}
+
 
